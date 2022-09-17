@@ -2,10 +2,10 @@
 # # For more information, see https://www.terraform.io/docs/backends/types/remote.html
  terraform {
    backend "remote" {
-     organization = "example-org"
+     organization = "example-org-298e7c"
 
      workspaces {
-       name = "name-project"
+       name = "foucan-project"
      }
    }
 
